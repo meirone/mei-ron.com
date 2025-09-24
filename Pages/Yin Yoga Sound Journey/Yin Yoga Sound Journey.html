@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, proxy-revalidate">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+<title>MeiRon Egger - Media</title>
+
+<style>
+  @font-face {
+    font-family: 'Violina-Regular';
+    src: url('https://dl.dropboxusercontent.com/scl/fi/mu3g9jim0aq3akwdofhjh/Violina-Regular.ttf?rlkey=phkqcswxw4abckmwhhm7mwv5x') format('truetype');
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    color: #fcfbf2;
+    font-family: 'Violina-Regular', sans-serif;
+    line-height: 1.2;
+	display: flex; 
+	justify-content: center;
+  }
+
+  .container {
+    width: 100%px;
+    mmax-width: 300px;
+    margin: 0;
+    padding: 0 15px;
+	background-color: #241a06;
+  }
+
+.segment {
+      text-align: center;
+      margin: 10px 10px 30px 10px;
+      padding: 10px;
+      font-family: 'Violina-Regular', sans-serif;
+      background-color: #362506;
+      border-radius: 20px;
+}
+	
+  .segment p {
+    margin: 0px 0px 5px 0px;
+    padding: 0;
+    font-size: 1.1em;
+  }
+
+  .segment img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+    margin: 0;
+  }
+
+  .spacer {
+    height: 0px;
+	text-align: center;
+	font-size: 15px;
+	color: #504b1d;
+	font-family: 'Violina-Regular', sans-serif;
+	padding: 30px 0px 60px 0px; 
+	border: 0px solid black;
+  }
+
+  iframe {
+    border: none;
+  }
+
+.text-section {
+    position: relative;
+    ooverflow: hidden;
+    max-width: 100%;
+	background-color: #362506;
+  }
+  
+.image-wrapper {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: black;
+    border-radius: 20px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: black;
+    border-radius: 20px;
+    margin: 0px auto 0px auto;
+  }
+  
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+.video-wrapper.video-portrait {
+  padding-bottom: 177.78%; /* 9:16 aspect ratio */
+}
+
+  @media (min-width: 768px) {
+    .container {
+      max-width: 1200px;
+    }
+  }
+</style>
+
+</head>
+<body>
+<div class="container">
+
+  <div class="segment">
+    <iimg class="image-wrapper" src="https://dl.dropboxusercontent.com/scl/fi/1he5k7g44iirlahf66d6f/august2.jpg?rlkey=zo81w5bgatadgg0rllh2eu2zw&raw=1" alt="August Flyer" />
+
+    <p class="text-section"><b style="font-size: 20px"><i>Yin Yoga Sound Journey</i></b> 
+		<br>&nbsp;<br>
+		Sun, Sep 28 @ 4:00PM		
+</p>    
+
+<p class="text-section">Yin Yoga Sound Journey:	with Aubrey Barker, Kiranjot Kaur & MeiRòn Egger!
+		<br>&nbsp;<br>
+		A 2-Hour Deep-Dive within
+		<br>&nbsp;<br>
+		Offer yourself the gift of embarking on a Yin Yoga Sound Journey, where deep rest meets devotional sound.
+		<br>&nbsp;<br>
+		Guided by Aubrey, you’ll slowly move through a series of long-held, yin postures designed to cultivate expansive breath and a grounding force within. As you surrender into each shape, Kiranjot Kaur and MeiRòn will gift us with live-improvised, soul-nourishing music; weaving together harmonium, flute, guitar, and voice in a cocoon of healing resonance.
+		<br>&nbsp;<br>
+		This is an opportunity to unwind the tension held in the body and soften into the breath—offering space for emotions to surface, be witnessed, and move through. There is nothing to force, nothing to fix—only an invitation to root into yourself and be with what arises.
+		<br>&nbsp;<br>
+		We will begin and end in stillness, anchored by meditation and breath, inviting you into deeper layers of surrender and inner peace.
+		<br>&nbsp;<br>
+		$33-$55 sliding scale registration is non refundable but may be transferred to another person. To save your spot pay here:
+</p>
+  </div>
+
+
+  <div class="spacer">─────── •  ♫  • ───────<br>&nbsp<br>&nbsp<br>&nbsp</div>
+
+</div>
+<script>
+    window.onload = function() {
+      const segment = document.getElementById('segment');
+      segment.classList.add('visible');  // Trigger the fade-in effect
+    };
+  </script>
+</body>
+</html>
